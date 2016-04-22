@@ -1,0 +1,30 @@
+.forumstyle{
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.forumstyle hr{
+	color:#F87431;
+	height:1px 
+}
+
+hr{
+	color:#F87431;
+	height:1px 
+}
+h2{
+	font:Georgia, 'Times New Roman', Times, serif
+}
+
+.forumreplays{
+	position: relative;
+	text-align:left;
+	margin-left:7%;
+	margin-right: 7%;
+	
+}
+.identity {
+	position: absolute;
+    bottom: 0;
+    right: 0;	
+}

@@ -1,0 +1,11 @@
+create table login(id varchar2(20) primary key,password varchar2(15),branch varchar2(20),position varchar2(10));
+create table library(title clob primary key,author clob,subject clob,type varchar2(20),ctype varchar2(5),uploader varchar2(20),branch varchar2(15));
+
+Create table schedules(ID number(10),subject clob,ondate date,vdate date,link clob,content clob,uploader varchar2(20),branch varchar2(15),upbranch varchar2(20));
+Create sequence schedules_sequence start with 1 increment by 1 minvalue 1 maxvalue 1000000000;
+
+create table forums(ID number(10),content clob,uploader varchar2(20),subject clob,branch varchar2(20),ondate date,upbranch varchar2(20),upposition varchar2(10));
+Create sequence forum_sequence start with 1 increment by 1 minvalue 1 maxvalue 1000000000;
+
+
+ 

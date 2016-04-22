@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="works.collegeportals"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission  android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/collegeportalicon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="works.collegeportals.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="MainPage"></activity>
+        <activity android:name="MySpaceActivity"></activity>
+        <activity android:name="ChatActivity"></activity>
+        <activity android:name="AttendanceActivity"></activity>
+        <activity android:name="AccountActivity"></activity>
+        <activity android:name="LocationsActivity"></activity>
+        <activity android:name="LoginPage2"></activity>
+        <activity android:name="works.collegeportals.profile.ChangePassword"></activity>
+        <activity android:name="works.collegeportals.profile.EventRemainder"></activity>
+        <activity android:name="works.collegeportals.profile.ProfileActivity"></activity>
+        <activity android:name="works.collegeportals.profile.Test"></activity>
+        <activity android:name="works.collegeportals.schedules.ScheduleActivity"></activity>
+        <activity android:name="works.collegeportals.schedules.ViewSchedule"></activity>
+        <activity android:name="works.collegeportals.schedules.ViewScheduleDisplay"></activity>
+        <activity android:name="works.collegeportals.schedules.AddSchedules"></activity>
+        <activity android:name="works.collegeportals.schedules.DeleteSchedules"></activity>
+        <activity android:name="works.collegeportals.schedules.DownloadSchedule"></activity>
+        <activity android:name="works.collegeportals.library.LibraryActivity"></activity>
+        <activity android:name="works.collegeportals.library.ViewBooks"></activity>
+        <activity android:name="works.collegeportals.library.DownloadedBooks"></activity>
+        <activity android:name="works.collegeportals.forums.ForumActivity"></activity>
+        <activity android:name="works.collegeportals.forums.AddForums"></activity>
+        <activity android:name="works.collegeportals.forums.DisplayForums"></activity>
+        <activity android:name="works.collegeportals.forums.DeleteForums"></activity>
+        
+        
+        
+        
+        
+        
+        
+        
+        <activity android:name="CreateDayActivity"></activity>
+    </application>
+
+</manifest>

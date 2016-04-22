@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/mylocation.xml" />
+    </issue>
+    <issue id="DuplicateIds">
+        <ignore path="res/layout/addschedules.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/addschedules.xml" />
+        <ignore path="res/layout/attendance.xml" />
+        <ignore path="res/layout/createday.xml" />
+        <ignore path="res/layout/login.xml" />
+        <ignore path="res/layout/mylocation.xml" />
+        <ignore path="res/layout/profilemain.xml" />
+        <ignore path="res/layout/viewscheduledisplay.xml" />
+    </issue>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/com/collegeportals/ViewSchedule.java" />
+    </issue>
+    <issue id="ScrollViewSize">
+        <ignore path="res/layout/attendance.xml" />
+    </issue>
+    <issue id="SetJavaScriptEnabled" severity="ignore" />
+    <issue id="ShowToast" severity="ignore">
+        <ignore path="src/works/collegeportals/library/ViewBooks.java" />
+    </issue>
+    <issue id="SimpleDateFormat" severity="ignore" />
+    <issue id="SpUsage">
+        <ignore path="res/layout/attendance.xml" />
+        <ignore path="res/layout/login.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res/layout/login.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/profilemain.xml" />
+        <ignore path="res/layout/viewscheduledisplay.xml" />
+    </issue>
+    <issue id="Wakelock" severity="ignore" />
+</lint>

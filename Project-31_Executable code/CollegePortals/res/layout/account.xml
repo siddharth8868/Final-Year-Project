@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/accountspinnerbranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/accountsupiinerbranch"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/accountspinnerposition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/accountspinnerposition"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/accountspinnerwork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/accountspinnerwork"
+            android:layout_weight="1"  />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1" >
+
+    </ListView>
+
+</RelativeLayout>
